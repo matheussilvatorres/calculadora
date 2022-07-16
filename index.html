@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="main">
-        <form action="" name="calculator">[
-            <input type="text" class="textMainColor" name="text1" disabled>
+        <form action="" name="Calculator">
+            <input type="text" class="textMainColor" name="text1" disabled><br>
             <input type="text" class="textMainColor" name="text12" value="C" onclick="location.reload()"><br>
 
             <input type="button" class="numMainColor" name="btn9" value="9" onclick="displaynum(btn9.value)">
@@ -29,8 +29,8 @@
             <input type="button" class="numGre" name="multBtn" value="*" onclick="displaynum(multBtn.value)"><br>
 
             <input type="button" class="numMainColor" name="dot" value="." onclick="displaynum(dot.value)">
-            <input type="button" class="numMainColor" name="btn0" value="8" onclick="displaynum(btn0.value)">
-            <input type="button" class="numPur" name="eqlbtn" value="=" onclick="displaynum(eqlbtn.value)">
+            <input type="button" class="numMainColor" name="btn0" value="0" onclick="displaynum(btn0.value)">
+            <input type="button" class="numdarkb" name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
             <input type="button" class="numOra" name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br>
         </form>
     </div>
