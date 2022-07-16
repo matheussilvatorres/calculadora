@@ -10,12 +10,20 @@ body{
 }
 
 input{
-    color: #fff;
+    color: white;
+    width: 64px;
+    height: 67px;
+    border-radius: 22px;
+    letter-spacing: 5px;
     padding: 17px;
     outline: none;
     font-size: 1.5em;
     font-family: 'Bebas Neue', cursive;
     border-radius: 25%;
+}
+
+main{
+    display: inline-block;
 }
 
 .textMainColor{
@@ -25,12 +33,27 @@ input{
     border-radius: 22px;
     letter-spacing: 5px;
 }
-main{
-    display: inline-block;
-}
 
 .numMainColor{
     background-color: #000;
-    width: 64px;
-    height: 67px;
+}
+
+.numBlue{
+    background-color: blue;
+}
+
+.numPin{
+    background-color: pink;
+}
+
+.numGre{
+    background-color: green;
+}
+
+.numPur{
+    background-color: purple;
+}
+
+.numOra{
+    background-color: orange;
 }
